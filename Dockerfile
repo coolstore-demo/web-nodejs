@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:18
 ENV COOLSTORE_GW_ENDPOINT=http://localhost:8090
 WORKDIR /usr/src/app
 COPY package*.json ./
