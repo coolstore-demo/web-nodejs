@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:18
 ENV COOLSTORE_GW_ENDPOINT=http://gateway-vertx:8080
 WORKDIR /usr/src/app
 COPY package*.json ./
